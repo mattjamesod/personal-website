@@ -1,9 +1,13 @@
 ---
 layout: with_navigation
 permalink: /about/
+last_udpated_at: 2026-07-22
 ---
 
-<h1>About</h1>
+<header>
+	<h1>About</h1>
+	<p class="last-updated-at">Last updated <time="{{ page.last_udpated_at }}">{{ page.last_udpated_at | date_to_long_string: "ordinal" }}</time></p>
+</header>
 
 <p>I'm <b>Matthew</b>: a programmer, software developer, and writer. I live in East London where I like to drink coffee, learn languages, read books, take photos, and ride my bike. </p>
 

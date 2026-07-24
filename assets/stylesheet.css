@@ -109,6 +109,12 @@ a {
 
 h1, h2, h3 {
 	font-family: var(--font-sans-serif);
+	margin-block-end: 0px;
+}
+
+.last-updated-at {
+	margin-block-start: 0px;
+	color: var(--secondary-font-color);
 }
 
 .home-page-gallery-label {
