@@ -1,8 +1,8 @@
 :root {
 	--width: 800px;
-	--font-size: 1.3rem;
-	--font-serif: "Ovo", serif;
-	--font-sans-serif: "DM Sans", sans-serif;
+	--font-size: 1.2rem;
+	--font-serif: "Libre Baskerville", serif;
+	--font-sans-serif: "Schibsted Grotesk", sans-serif;
 	--bg-color: #F2EFEA;
 	--font-color: #000000;
 	--secondary-font-color: rgba(0, 0, 0, 0.4);
@@ -17,7 +17,7 @@ html {
 	font-size: var(--font-size);
 	font-family: var(--font-serif);
 	color: var(--font-color);
-	line-height: 1.5;
+	line-height: 1.8;
 	background-color: var(--bg-color);
 }
 
@@ -45,12 +45,20 @@ main {
 	padding-inline: 1rem;
 
 	p {
-		margin-block-end: 1rem;
+		margin-block-end: 0.2rem;
+	}
+
+	p + p {
+		text-indent: 1.5rem;
 	}
 }
 
 h1, h2, h3 {
 	font-family: var(--font-sans-serif);
+}
+
+h1 {
+	font-size: 3rem;
 }
 
 ul {
@@ -86,12 +94,15 @@ a {
 	font-family: var(--font-sans-serif);
 	font-size: 3rem;
 	line-height: 1.2;
-	font-weight: 250;
+	font-weight: 200;
+
+	a {
+		text-decoration-style: dotted;
+		text-decoration-thickness: inherit;
+	}
 
 	a:hover {
 		color: var(--font-color);
-		transition: text-decoration-color .2s ease-in-out;
-		text-decoration-thickness: .075em;
 		text-decoration-skip-ink: none;
 	}
 }
