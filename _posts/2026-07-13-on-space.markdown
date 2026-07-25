@@ -4,18 +4,37 @@ title:     "Digital Spaces"
 blurb:     "On community, consumption, and what is lost"
 url:       "/2026/07/13/on-space"
 published: 2026-07-13 7:00:00 +0000
+edited:    2026-07-13 7:00:00 +0000
 tags:      life tech
 ---
 Digital spaces are weird.
 
-I can chat with friends at any time of the day, without having to look presentable, or go anywhere or plan anything. I don't need to greet them or say goodbye. I can socialise with groups of people that I know intimately, and laugh at our shared jokes, even though none of them know me. I can see what it's like to bikepack from Alaska to Argentina; I can hear an Andean farmer wish me safe travels.
+I can chat with friends from anywhere at any time of the day, without having to get dressed, or say hello or goodbye. I can know what it's like to cycle from Alaska to Argentina without knowing what it's like to have a saddle sore. I laugh until I cry at an off-the-cuff joke, and nobody is gratified to know how funny they were.
 
-I feel real joy from all of this; there is no other kind. So why, in the longer term, does it make me so sad?
+I feel real joy from digital connections; there is no other kind. But in the long term (or, increasingly, the medium term) my presence in digital spaces makes me sad.
 
-I've also come to the conclusion than I don't really want to know. Knowledge is not always good: sometimes knowledge can turn something meaningful into something sad. In this case, I think knowing what real life has, and what digital spaces correspondingly lack, would be dangerous - like explaining a joke, something would be lost in the process of understanding.
+Digital spaces, and digital connections, replace real ones in all our lives to some degree or another. But there's something important lost in the switch. That loss is what makes digital spaces appealing in the first place: they are less intimidating to be in, easier to find, and more exclusive in their membership.
 
-The important part is this: digital spaces are useful for building connections with real people who you otherwise would never get to meet or know. That's the power of the internet. But they should only *augment* the connections you build in the real world, and never replace them.
+What are we trading for these things?
+
+It's easy to ignore this question, even when it seems to be key to your own happiness, as it is for me. It's even easier to continue in behaviour you know is bad for you, purely because you don't understand why it's bad for you; as though the explanation matters.
+
+Therefore, I would firstly encourage anyone who resonates with what I've said so far to act. If you reflect for a few moments you know what digital spaces cause these feelings for you. Take a breather - step outside for a day, or a week, or whatever length of time is practicable, and see how it goes.
+
+I did this for myself some weeks ago. On my laptop I use [SelfControl](https://selfcontrolapp.com) to block digital spaces I know I use to replace real interaction. The big ones for me are YouTube and Twitch, but it's different for different people. This is my full list:
+
+I block all these sites for 7 day periods, and only check in with them once a week (if I feel I have a good reason to do so).
+
+I've seen a vast improvement in my mental health from this, but not from the *absence* of these spaces as such (though the dramatically fall in the amount of AI takes I read has certainly helped). I'm coming to realise the reason this works for me is that I'm replacing these spaces and connections with something better.
+
+I've been reading blogs, and if I like what the author has to say, I've sent them an email. You'll be surprised how many people respond! I'm building a website for a good friend of mine to host his writing projects. I'm spending more time outside. Little interactions on the street, or in the coffee shop, feel more meaningful. If the food somewhere was good, I'm telling the staff more. You'd be surprised how many of them care, even in a big city like London.
+
+When we trade real spaces for digital ones, the thing we lose is service. The opportunity to serve other people, to have a two-way connection, has an experiential value that can't be captured on a spreadsheet, and therefore we're loath to give it fair consideration. At least, I was. 
+
+Digital spaces are useful for building connections with real people who you otherwise would never get to meet or know. That's the power of the internet. But they should only *augment* the connections you build in the real world, and never replace them.
 
 ***
 
-Anyway, um, with all that in mind, hello! This is the first post on my website. I'd genuinely love to hear from you.
+Anyway, with all that in mind, hello! This is my first post on this website. I'll be writing more here, about whatever I think is worth sharing.
+
+If you want to get in touch, [send me an email](mailto:matthew.james.od@gmail.com). I'd love to hear from you :)

@@ -3,8 +3,8 @@ layout: with_navigation
 ---
 
 <header>
-	<div><time datetime="{{ page.published }}">{{ page.published  | date: "%d %B %Y" }}</time>, edited <time datetime="{{ page.published }}">{{ page.published  | date: "%d %B %Y" }}</time></div>
-	<h1>{{ page.title }}</h1>
+	<div class="article-dates"><time datetime="{{ page.published }}">{{ page.published  | date: "%d %B %Y" }}</time>, edited <time datetime="{{ page.edited }}">{{ page.edited  | date: "%d %B %Y" }}</time></div>
+	<h1 class="article-title">{{ page.title }}</h1>
 	<div class="blurb">{{ page.blurb }}</div>
 </header>
 <article class="prose">
