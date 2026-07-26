@@ -4,8 +4,8 @@
 	--font-serif: "Libre Baskerville", serif;
 	--font-sans-serif: "Schibsted Grotesk", sans-serif;
 	--bg-color: #F2EFEA;
-	--font-color: #000000;
-	--secondary-font-color: rgba(0, 0, 0, 0.4);
+	--font-color: rgba(0, 0, 0, 0.875);
+	--secondary-font-color: rgba(0, 0, 0, 0.5);
 	--accent-color: #FE7F2D;
 	--font-accent-color: #256EFF;
 	--font-accent-color-hover: #020887;
@@ -53,6 +53,15 @@ main {
 	p + p {
 		text-indent: 1.5rem;
 	}
+
+	h2 {
+		text-align: center;
+		font-family: serif;
+		margin-block-start: 2.5rem;
+		margin-block-end: 1.5rem;
+		font-size: 1.2rem;
+		font-weight: 600;
+	}
 }
 
 h1, h2, h3 {	
@@ -87,19 +96,20 @@ a {
 hr {
 	margin-block: 4rem;
 	border: none;
-	height: 4px;
-	background-image: url("/assets/images/divider.svg");
-	background-repeat: no-repeat;
-	background-size: 100%;
-	width: 80%;
-	margin-inline: auto;
+	height: 5px;
+	background-color: var(--font-color);
+	-webkit-mask-image: url("/assets/images/divider.svg");
+	mask-image: url("/assets/images/divider.svg");
+	mask-repeat: no-repeat;
+	mask-size: 100%;
 }
 
 .article-dates {
 }
 
 .article-title-card {
-	margin-block: 1rem;
+	margin-block-end: 1rem;
+	border-bottom: 4px solid black;
 }
 
 .print-title {

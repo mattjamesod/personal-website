@@ -21,6 +21,8 @@ It's easy to ignore this question, even when it seems to be key to your own happ
 
 Therefore, I would firstly encourage anyone who resonates with what I've said so far to act. If you reflect for a few moments you know what digital spaces cause these feelings for you. Take a breather - step outside for a day, or a week, or whatever length of time is practicable, and see how it goes.
 
+## A Heading
+
 I did this for myself some weeks ago. On my laptop I use [SelfControl](https://selfcontrolapp.com) to block digital spaces I know I use to replace real interaction. The big ones for me are YouTube and Twitch, but it's different for different people. This is my full list:
 
 I block all these sites for 7 day periods, and only check in with them once a week (if I feel I have a good reason to do so).
