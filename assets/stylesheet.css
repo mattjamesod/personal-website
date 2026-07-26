@@ -84,10 +84,21 @@ a {
 	}
 }
 
+hr {
+	margin-block: 4rem;
+}
+
 .article-dates {
 }
 
-.article-title {
+.article-title-card {
+	margin-block: 1rem;
+}
+
+.print-title {
+	letter-spacing: 8px;
+	font-weight: 600;
+	text-transform: uppercase;
 }
 
 .blurb {
@@ -185,7 +196,7 @@ a {
 .footer-strip {
 	height: 60%;
 	background-color: var(--accent-color);
-	border-top: 1px solid var(--font-color);
+	/*border-top: 1px solid var(--font-color);*/
   z-index: -1;
 	position: absolute;
 	left: 0;
