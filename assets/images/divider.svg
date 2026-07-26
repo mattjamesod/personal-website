@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="82.395805mm"
+   height="0.52194816mm"
+   viewBox="0 0 82.395805 0.52194816"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="New document 1.2026_07_26_15_16_33.0.svg"
+   inkscape:export-filename="Desktop/divider.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="2.989507"
+     inkscape:cx="360.42732"
+     inkscape:cy="359.92556"
+     inkscape:window-width="1958"
+     inkscape:window-height="1251"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="82.395805"
+       height="0.52194816"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="105.64854,124.64565"
+       end_point="105.64935,120.34229"
+       center_point="105.64895,122.49397"
+       id="path-effect6"
+       is_visible="true"
+       lpeversion="1.2"
+       lpesatellites=""
+       mode="free"
+       discard_orig_path="false"
+       fuse_paths="false"
+       oposite_fuse="false"
+       split_items="false"
+       split_open="false"
+       link_styles="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-64.452314,-119.76584)">
+    <path
+       id="path6"
+       style="stroke-width:0.1683"
+       d="m 105.65126,119.041 c -0.77383,0 -1.54539,-1.05821 -2.31457,-1.05796 -48.89535,0.0155 -88.155092,0.52256 -88.155126,1.14573 3.4e-5,0.62293 39.22973,1.12979 88.098996,1.14571 0.78777,2.6e-4 1.57804,-1.05794 2.3707,-1.05794 m -0.003,-0.17554 c 0.77383,2.9e-4 1.54578,-1.05763 2.31496,-1.05709 48.89534,0.0338 88.15489,0.55554 88.15469,1.17871 -2.6e-4,0.62293 -39.23015,1.11511 -88.09941,1.11275 -0.78777,-4e-5 -1.57765,-1.05853 -2.37031,-1.05883"
+       sodipodi:nodetypes="cscsc"
+       inkscape:path-effect="#path-effect6"
+       inkscape:original-d="m 105.65126,119.041 c -0.77383,0 -1.54539,-1.05821 -2.31457,-1.05796 -48.89535,0.0155 -88.155092,0.52256 -88.155126,1.14573 3.4e-5,0.62293 39.22973,1.12979 88.098996,1.14571 0.78777,2.6e-4 1.57804,-1.05794 2.3707,-1.05794"
+       transform="matrix(0.45538639,0,0,0.2276932,57.538843,92.901915)"
+       inkscape:export-filename="Desktop/path6.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+</svg>
