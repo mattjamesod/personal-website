@@ -2,10 +2,22 @@
 layout: with_navigation
 ---
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+<header>
+  <h1 class="print-title">Blog Archive</h1>
+</header>
+
+{% assign postsByYearMonth = site.posts | group_by_exp:"post", "post.date | date: '%B %Y'"  %}
+
+{% for yearMonth in postsByYearMonth %}
+  <section class="blog-year-month">
+    <h2>{{ yearMonth.name }}</h2>
+      <ol>
+        {% for post in yearMonth.items %}
+          <li class="blog-item">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+            <span class="blog-item-blurb">{{ post.blurb }}</span>
+          </li>
+        {% endfor %}
+      </ol>
+  </section>
+{% endfor %}

@@ -3,7 +3,8 @@
 	--font-size: 1.2rem;
 	--font-serif: "Libre Baskerville", serif;
 	--font-sans-serif: "Schibsted Grotesk", sans-serif;
-	--bg-color: #F2EFEA;
+	--bg-color: #FBF7EB;
+	--layer-color: #F1E9D2;
 	--font-color: rgba(0, 0, 0, 0.875);
 	--secondary-font-color: rgba(0, 0, 0, 0.5);
 	--accent-color: #FE7F2D;
@@ -74,7 +75,7 @@ h1 {
 	font-size: 4rem;
 }
 
-ul {
+ul, ol {
 	list-style-type: none;
 	padding-inline-start: 0px;
 }
@@ -102,6 +103,19 @@ hr {
 	mask-image: url("/assets/images/divider.svg");
 	mask-repeat: no-repeat;
 	mask-size: 100%;
+}
+
+.blog-year-month {
+	margin-block: 2rem;
+}
+
+.blog-item {
+	display: flex;
+	flex-direction: column;
+}
+
+.blog-item-blurb {
+	color: var(--secondary-font-color);
 }
 
 .article-dates {
