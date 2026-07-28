@@ -1,5 +1,5 @@
 ---
-layout: 			 post
+layout: 			 article
 title:  			 "The 8th Wonder of the World"
 date:   			 2024-05-27 18:00:00 +0000
 categories: 		 non-fiction

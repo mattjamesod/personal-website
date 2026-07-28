@@ -154,7 +154,7 @@ a {
 hr {
 	margin-block: 4rem;
 	border: none;
-	height: 5px;
+	height: 7px;
 	background-color: var(--font-color);
 	-webkit-mask-image: url("/assets/images/divider.svg");
 	mask-image: url("/assets/images/divider.svg");

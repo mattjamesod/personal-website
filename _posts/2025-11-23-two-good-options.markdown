@@ -1,5 +1,5 @@
 ---
-layout: 			 post
+layout: 			 article
 title:  			 "Two Good Options"
 date:   			 2025-11-23 17:00:00 +0000
 categories: 		 non-fiction

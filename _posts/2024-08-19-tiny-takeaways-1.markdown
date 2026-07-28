@@ -1,5 +1,5 @@
 ---
-layout: 			 post
+layout: 			 article
 title:  			 "'Tidy First?' - A Tiny Takeaway"
 date:   			 2024-08-19 18:00:00 +0000
 categories: 		 non-fiction

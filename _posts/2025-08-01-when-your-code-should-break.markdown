@@ -1,5 +1,5 @@
 ---
-layout: 			 post
+layout: 			 article
 title:  			 "When Your Code Should Break"
 date:   			 2025-08-01 15:00:00 +0000
 categories: 		 non-fiction
