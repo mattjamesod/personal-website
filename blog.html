@@ -6,18 +6,18 @@ layout: with_navigation
   <h1 class="print-title">Blog Archive</h1>
 </header>
 
-{% assign postsByYearMonth = site.posts | group_by_exp:"post", "post.date | date: '%B %Y'"  %}
+{% assign postsByYearMonth = site.posts | group_by_exp:"post", "post.date | date: '%Y'"  %}
 
-{% for yearMonth in postsByYearMonth %}
-  <section class="blog-year-month">
-    <h2>{{ yearMonth.name }}</h2>
-      <ol>
-        {% for post in yearMonth.items %}
-          <li class="blog-item">
-            <a href="{{ post.url }}">{{ post.title }}</a>
-            <span class="blog-item-blurb">{{ post.blurb }}</span>
-          </li>
-        {% endfor %}
-      </ol>
-  </section>
-{% endfor %}
+<div class="blog-container">
+  {% for yearMonth in postsByYearMonth %}
+    <h2 class="blog-year-month-title">{{ yearMonth.name }}</h2>
+    <ol class="blog-list">
+      {% for post in yearMonth.items %}
+        <li class="blog-item">
+          <a href="{{ post.url }}">{{ post.title }}</a>
+          <span class="blog-item-blurb">{{ post.blurb }}</span>
+        </li>
+      {% endfor %}
+    </ol>
+  {% endfor %}
+</div>
