@@ -8,20 +8,22 @@ layout: with_navigation
 
 {% assign postsByYearMonth = site.books | reverse | group_by_exp:"book", "book.read | date: '%B %Y'" %}
 
-<div class="blog-container">
+<div class="timeline-container">
   {% for yearMonth in postsByYearMonth %}
-    <h2 class="blog-year-month-title">{{ yearMonth.name }}</h2>
-    <ol class="blog-list">
+    <h2 class="timeline-date">{{ yearMonth.name }}</h2>
+    <ol class="library-index">
       {% for book in yearMonth.items %}
-        <li class="blog-item">
-          <a href="{{ book.url }}">{{ book.title }}</a>
-          <span class="blog-item-blurb">{{ book.author }}</span>
+        <li class="library-index-item">
+        	<div class="library-index-item-meta">
+          	<span class="library-index-item-author">{{ book.author }}</span>
+      		</div>
+          <span class="library-index-item-title"><a href="{{ book.url }}">{{ book.title }}</a></span>
         </li>
       {% endfor %}
     </ol>
   {% endfor %}
 
-  <h2 class="blog-year-month-title distant-memory">Distant Memory</h2>
+  <h2 class="timeline-date distant-memory">Distant Memory</h2>
   <p class="distant-memory">Lots of Roald Dahl, Harry Potter, and Garth Nix. One day, I'll re-read <a href="https://en.wikipedia.org/wiki/The_Keys_to_the_Kingdom">The Keys to the Kingdom</a>, and likely realise it's better forgotten.</p>
 </div>
 

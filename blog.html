@@ -8,9 +8,9 @@ layout: with_navigation
 
 {% assign postsByYearMonth = site.posts | group_by_exp:"post", "post.date | date: '%Y'"  %}
 
-<div class="blog-container">
+<div class="timeline-container">
   {% for yearMonth in postsByYearMonth %}
-    <h2 class="blog-year-month-title">{{ yearMonth.name }}</h2>
+    <h2 class="timeline-date">{{ yearMonth.name }}</h2>
     <ol class="blog-list">
       {% for post in yearMonth.items %}
         <li class="blog-item">
