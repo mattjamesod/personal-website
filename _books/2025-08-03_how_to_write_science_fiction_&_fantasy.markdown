@@ -1,0 +1,9 @@
+---
+title: "How to Write Science Fiction & Fantasy"
+author: "Orson Scott Card"
+read: 2025/08/03
+layout: "book"
+url: "/books/how_to_write_science_fiction_&_fantasy"
+---
+
+<div>Skipped the final section on publishing for another time, and because 90s America is probably not the best context for said advice.</div>

@@ -146,12 +146,14 @@ a {
 	color: inherit;
 	text-decoration: none;
 	text-decoration-line: underline;
-	text-decoration-thickness: .05em;
+	text-decoration-thickness: .1em;
+	text-decoration-color: var(--font-color);
 	text-underline-offset: .125em;
 
 	&:hover {
 		color: var(--font-accent-color-hover);
-		text-decoration-thickness: .1em;
+		text-decoration-color: var(--font-accent-color-hover);
+		text-decoration-thickness: .15em;
 		text-decoration-skip-ink: none;
 	}
 }
@@ -198,6 +200,10 @@ hr {
 
 .blog-item-blurb {
 	color: var(--secondary-font-color);
+}
+
+.distant-memory {
+	margin-top: 80px;
 }
 
 .article-dates {
@@ -273,6 +279,7 @@ hr {
 
 .accent-color {
 	color: var(--font-accent-color);
+	text-decoration-color: var(--font-accent-color);
 }
 
 .sans-serif {
@@ -293,10 +300,14 @@ hr {
 
 	ul {
   	text-wrap: nowrap;
-		color: var(--secondary-font-color);
+		a {
+			color: var(--secondary-font-color);
+			text-decoration-color: var(--secondary-font-color);
+		}
 
 		a:hover {
 			color: var(--font-color);
+			text-decoration-color: var(--font-color);
 		}
 	}
 

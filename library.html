@@ -1,0 +1,28 @@
+---
+layout: with_navigation
+---
+
+<header>
+<h1 class="print-title">Library</h1>
+</header>
+
+{% assign postsByYearMonth = site.books | reverse | group_by_exp:"book", "book.read | date: '%B %Y'" %}
+
+<div class="blog-container">
+  {% for yearMonth in postsByYearMonth %}
+    <h2 class="blog-year-month-title">{{ yearMonth.name }}</h2>
+    <ol class="blog-list">
+      {% for book in yearMonth.items %}
+        <li class="blog-item">
+          <a href="{{ book.url }}">{{ book.title }}</a>
+          <span class="blog-item-blurb">{{ book.author }}</span>
+        </li>
+      {% endfor %}
+    </ol>
+  {% endfor %}
+
+  <h2 class="blog-year-month-title distant-memory">Distant Memory</h2>
+  <p class="distant-memory">Lots of Roald Dahl, Harry Potter, and Garth Nix. One day, I'll re-read <a href="https://en.wikipedia.org/wiki/The_Keys_to_the_Kingdom">The Keys to the Kingdom</a>, and likely realise it's better forgotten.</p>
+</div>
+
+

@@ -1,0 +1,9 @@
+---
+title: "Lenin"
+author: "Lars T. Lih"
+read: 2025/06/09
+layout: "book"
+url: "/books/lenin"
+---
+
+

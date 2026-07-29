@@ -1,0 +1,9 @@
+---
+title: "Elantris"
+author: "Brandon Sanderson"
+read: 2019/04/12
+layout: "book"
+url: "/books/elantris"
+---
+
+

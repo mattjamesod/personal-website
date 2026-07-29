@@ -1,0 +1,9 @@
+---
+title: "Emma"
+author: "Jane Austen"
+read: 2025/01/08
+layout: "book"
+url: "/books/emma"
+---
+
+

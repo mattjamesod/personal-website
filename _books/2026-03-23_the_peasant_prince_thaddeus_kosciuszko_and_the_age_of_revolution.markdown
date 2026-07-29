@@ -1,0 +1,9 @@
+---
+title: "The Peasant Prince: Thaddeus Kosciuszko and the Age of Revolution"
+author: "Alex Storozynski"
+read: 2026/03/23
+layout: "book"
+url: "/books/the_peasant_prince_thaddeus_kosciuszko_and_the_age_of_revolution"
+---
+
+<div>American Exceptionalism: 9/10<br><br>The author writes from a very American perspective and clearly has a dim view of the French Revolution, in both senses. The direct comparisons between European and colonial institutions were misleading and unhelpful.</div>

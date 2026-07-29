@@ -1,0 +1,9 @@
+---
+title: "Stardust"
+author: "Neil Gaiman"
+read: 2019/06/20
+layout: "book"
+url: "/books/stardust"
+---
+
+

@@ -1,0 +1,9 @@
+---
+title: "Mort"
+author: "Terry Pratchett"
+read: 2022/09/04
+layout: "book"
+url: "/books/mort"
+---
+
+

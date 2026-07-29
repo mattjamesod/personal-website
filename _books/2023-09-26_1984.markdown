@@ -1,0 +1,9 @@
+---
+title: "1984"
+author: "George Orwell"
+read: 2023/09/26
+layout: "book"
+url: "/books/1984"
+---
+
+

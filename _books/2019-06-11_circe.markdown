@@ -1,0 +1,9 @@
+---
+title: "Circe"
+author: "Madeline Miller"
+read: 2019/06/11
+layout: "book"
+url: "/books/circe"
+---
+
+
