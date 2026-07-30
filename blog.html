@@ -11,11 +11,11 @@ layout: with_navigation
 <div class="timeline-container">
   {% for yearMonth in postsByYearMonth %}
     <h2 class="timeline-date">{{ yearMonth.name }}</h2>
-    <ol class="blog-list">
+    <ol class="library-index">
       {% for post in yearMonth.items %}
-        <li class="blog-item">
-          <a href="{{ post.url }}">{{ post.title }}</a>
-          <span class="blog-item-blurb">{{ post.blurb }}</span>
+        <li class="library-index-item">
+          <span class="library-index-item-title"><a href="{{ post.url }}">{{ post.title }}</a></span>
+          <span class="library-index-item-author">{{ post.blurb }}</span>
         </li>
       {% endfor %}
     </ol>
