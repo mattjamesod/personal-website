@@ -120,11 +120,11 @@ main {
 		margin-block-start: 2.5rem;
 		margin-block-end: 1.5rem;
 	}
+}
 
-	li::before {
-		content: "❯";
-		padding-right: 8px;
-	}
+li::before {
+	content: "❯";
+	padding-inline: 8px;
 }
 
 h1, h2, h3 {	
