@@ -1,7 +1,11 @@
 ---
 title: "1984"
 author: "George Orwell"
+isbn: ""
+book_format: "digital" 
 read: 2023/09/26
+times_read: 1
+rating: 5.0
 layout: "book"
 url: "/books/1984"
 ---

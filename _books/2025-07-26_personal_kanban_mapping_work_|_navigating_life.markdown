@@ -1,7 +1,11 @@
 ---
 title: "Personal Kanban: Mapping Work | Navigating Life"
 author: "Jim Benson, Tonianne DeMaria Barry"
+isbn: ""
+book_format: "digital" 
 read: 2025/07/26
+times_read: 1
+rating: 1.0
 layout: "book"
 url: "/books/personal_kanban_mapping_work_|_navigating_life"
 ---

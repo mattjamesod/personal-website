@@ -1,7 +1,11 @@
 ---
 title: "Emma"
 author: "Jane Austen"
+isbn: ""
+book_format: "digital" 
 read: 2025/01/08
+times_read: 1
+rating: 4.0
 layout: "book"
 url: "/books/emma"
 ---

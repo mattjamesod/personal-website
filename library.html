@@ -4,6 +4,8 @@ layout: with_navigation
 
 <header>
 <h1 class="print-title">Library</h1>
+
+<p>See <a href="https://app.thestorygraph.com/profile/mattjamesod">the Storygraph</a> for what I'm reading now.</p>
 </header>
 
 {% assign postsByYearMonth = site.books | reverse | group_by_exp:"book", "book.read | date: '%B %Y'" %}
@@ -17,7 +19,13 @@ layout: with_navigation
         	<div class="library-index-item-meta">
           	<span class="library-index-item-author">{{ book.author }}</span>
       		</div>
-          <span class="library-index-item-title"><a href="{{ book.url }}">{{ book.title }}</a></span>
+      		{% assign content = book.content | strip_newlines %}
+      		{% if content == "" %}
+      			<span class="library-index-item-title">{{ book.title }}</span>
+					{% else %}
+						<span class="library-index-item-title"><a href="{{ book.url }}">{{ book.title }}</a></span>
+					{% endif %}
+          
         </li>
       {% endfor %}
     </ol>

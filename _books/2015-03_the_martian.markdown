@@ -1,7 +1,11 @@
 ---
 title: "The Martian"
 author: "Andy Weir"
+isbn: "9781448177202"
+book_format: "digital" 
 read: 2015/03
+times_read: 1
+rating: 3.0
 layout: "book"
 url: "/books/the_martian"
 ---

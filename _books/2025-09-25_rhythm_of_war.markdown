@@ -1,7 +1,11 @@
 ---
 title: "Rhythm of War"
 author: "Brandon Sanderson"
+isbn: "9781429952040"
+book_format: "digital" 
 read: 2025/09/25
+times_read: 1
+rating: 4.0
 layout: "book"
 url: "/books/rhythm_of_war"
 ---

@@ -1,7 +1,11 @@
 ---
 title: "Circe"
 author: "Madeline Miller"
+isbn: "9781408890042"
+book_format: "paperback" 
 read: 2019/06/11
+times_read: 1
+rating: 4.0
 layout: "book"
 url: "/books/circe"
 ---

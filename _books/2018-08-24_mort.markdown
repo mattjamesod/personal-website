@@ -1,7 +1,11 @@
 ---
 title: "Mort"
 author: "Terry Pratchett"
+isbn: ""
+book_format: "digital" 
 read: 2018/08/24
+times_read: 1
+rating: 4.0
 layout: "book"
 url: "/books/mort"
 ---

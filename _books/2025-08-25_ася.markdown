@@ -1,0 +1,13 @@
+---
+title: "Ася"
+author: "Иван Тургенев"
+isbn: "9781594919992"
+book_format: "digital" 
+read: 2025/08/25
+times_read: 1
+rating: 4.0
+layout: "book"
+url: "/books/ася"
+---
+
+

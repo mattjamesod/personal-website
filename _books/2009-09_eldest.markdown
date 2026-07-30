@@ -1,7 +1,11 @@
 ---
 title: "Eldest"
 author: "Christopher Paolini"
-read: 2009
+isbn: "9780552552110"
+book_format: "paperback" 
+read: 2009/09
+times_read: 1
+rating: 
 layout: "book"
 url: "/books/eldest"
 ---

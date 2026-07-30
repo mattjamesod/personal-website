@@ -1,7 +1,11 @@
 ---
 title: "Dune"
 author: "Frank Herbert"
+isbn: "9780340960196"
+book_format: "paperback" 
 read: 2018/12/28
+times_read: 1
+rating: 4.0
 layout: "book"
 url: "/books/dune"
 ---

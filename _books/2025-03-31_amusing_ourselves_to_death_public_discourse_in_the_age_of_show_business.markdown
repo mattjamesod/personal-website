@@ -1,7 +1,11 @@
 ---
 title: "Amusing Ourselves to Death: Public Discourse in the Age of Show Business"
 author: "Neil Postman"
+isbn: "9781101042625"
+book_format: "digital" 
 read: 2025/03/31
+times_read: 1
+rating: 2.0
 layout: "book"
 url: "/books/amusing_ourselves_to_death_public_discourse_in_the_age_of_show_business"
 ---

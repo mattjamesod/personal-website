@@ -1,7 +1,11 @@
 ---
 title: "Stardust"
 author: "Neil Gaiman"
+isbn: "9780747263694"
+book_format: "paperback" 
 read: 2019/06/20
+times_read: 1
+rating: 3.0
 layout: "book"
 url: "/books/stardust"
 ---

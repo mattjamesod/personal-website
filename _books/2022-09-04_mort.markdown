@@ -1,7 +1,11 @@
 ---
 title: "Mort"
 author: "Terry Pratchett"
+isbn: "9781473200104"
+book_format: "hardcover" 
 read: 2022/09/04
+times_read: 1
+rating: 
 layout: "book"
 url: "/books/mort"
 ---

@@ -172,12 +172,9 @@ hr {
 .timeline-container {
 	display: grid;
   grid-template-columns: auto auto;
-  /*column-gap: 2rem;*/
-  /*row-gap: 1rem;*/
 
   @media (max-width: 700px) {
   	grid-template-columns: auto;
-  	/*row-gap: 2.5rem;*/
   }
 }
 

@@ -1,0 +1,13 @@
+---
+title: "Большой и Добрый Великан"
+author: "Roald Dahl"
+isbn: "9785917592220"
+book_format: "hardcover" 
+read: 2023/06/04
+times_read: 1
+rating: 
+layout: "book"
+url: "/books/большой_и_добрый_великан"
+---
+
+

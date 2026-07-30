@@ -1,7 +1,11 @@
 ---
 title: "Witch King"
 author: "Martha Wells"
+isbn: "9781250826800"
+book_format: "digital" 
 read: 2025/04/06
+times_read: 1
+rating: 3.0
 layout: "book"
 url: "/books/witch_king"
 ---

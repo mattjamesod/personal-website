@@ -1,7 +1,11 @@
 ---
 title: "Words of Radiance"
 author: "Brandon Sanderson"
+isbn: "9781429949620"
+book_format: "digital" 
 read: 2025/08/13
+times_read: 1
+rating: 5.0
 layout: "book"
 url: "/books/words_of_radiance"
 ---
