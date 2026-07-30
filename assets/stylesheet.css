@@ -219,11 +219,14 @@ hr {
 }
 
 .library-index-item-meta {
+	font-size: 0.8rem;
 	display: flex;
+	align-items: baseline;
+	gap: 0.5rem;
 }
 
 .library-index-item-author {
-	font-size: 0.8rem;
+
 }
 
 .library-index-item-title {
