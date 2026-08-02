@@ -5,12 +5,11 @@
 	--font-sans-serif: "Schibsted Grotesk", sans-serif;
 	--font-icon: "M PLUS Rounded 1c", sans-serif;
 	--bg-color: #FBF7EB;
-	--layer-color: #F1E9D2;
 	--font-color: rgba(0, 0, 0, 0.875);
 	--secondary-font-color: rgba(0, 0, 0, 0.5);
 	--accent-color: #FE7F2D;
-	--font-accent-color: #256EFF;
-	--font-accent-color-hover: #020887;
+	--link-color: #256EFF;
+	--link-color-hover: #020887;
 }
 
 /* ---- CSS RESET BEGIN ---- */
@@ -165,8 +164,8 @@ a {
 	text-underline-offset: .125em;
 
 	&:hover {
-		color: var(--font-accent-color-hover);
-		text-decoration-color: var(--font-accent-color-hover);
+		color: var(--link-color);
+		text-decoration-color: var(--link-color);
 		text-decoration-thickness: .15em;
 		text-decoration-skip-ink: none;
 	}
@@ -310,12 +309,10 @@ hr {
 
 .home-page-name {
 	a {
-		text-decoration-style: dotted;
 		text-decoration-thickness: inherit;
 	}
 
 	a:hover {
-		color: var(--font-color);
 		text-decoration-skip-ink: none;
 	}
 }
@@ -347,11 +344,6 @@ hr {
 	li:first-child {
 		margin-right: auto;
 	}
-}
-
-.accent-color {
-	color: var(--font-accent-color);
-	text-decoration-color: var(--font-accent-color);
 }
 
 .sans-serif {
@@ -390,7 +382,6 @@ hr {
 .footer-strip {
 	height: 60%;
 	background-color: var(--accent-color);
-	/*border-top: 1px solid var(--font-color);*/
   z-index: -1;
 	position: absolute;
 	left: 0;
