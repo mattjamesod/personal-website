@@ -5,7 +5,7 @@ layout: with_navigation
 <header>
 <h1 class="print-title">Library</h1>
 
-<p>See <a href="https://app.thestorygraph.com/profile/mattjamesod">the Storygraph</a> for what I'm reading now.</p>
+<p><b>Reviews contain spoilers</b>. <a href="/review-philosophy">What do the stars mean?</a></p>
 </header>
 
 {% assign postsByYearMonth = site.books | reverse | group_by_exp:"book", "book.read | date: '%B %Y'" %}
@@ -25,18 +25,8 @@ layout: with_navigation
 					{% else %}
 						<span class="library-index-item-title"><a href="{{ book.url }}">{{ book.title }}</a></span>
 					{% endif %}
-	
-					{% if book.rating == 1 %}
-						<span class="library-index-item-rating">★☆☆☆☆</span>
-					{% elsif book.rating == 2 %}
-						<span class="library-index-item-rating">★★☆☆☆</span>
-					{% elsif book.rating == 3 %}
-						<span class="library-index-item-rating">★★★☆☆</span>
-					{% elsif book.rating == 4 %}
-						<span class="library-index-item-rating">★★★★☆</span>
-					{% elsif book.rating == 5 %}
-						<span class="library-index-item-rating">★★★★★</span>
-					{% endif%}
+
+					{% include book-star-rating.html rating=book.rating %}
       	</li>
       {% endfor %}
     </ol>
