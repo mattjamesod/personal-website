@@ -14,10 +14,10 @@ layout: with_navigation
   {% for yearMonth in postsByYearMonth %}
     <h2 class="timeline-date">{{ yearMonth.name }}</h2>
     <ol class="library-index">
-      {% for book in yearMonth.items %}
-        <li class="library-index-item">
-        	<div class="library-index-item-meta">
-          	<span class="library-index-item-author">{{ book.author }}</span>
+      {% for book in yearMonth.items limit: start %}
+      	<li class="library-index-item">
+      		<div class="library-index-item-meta">
+      	  	<span class="library-index-item-author">{{ book.author }}</span>
       		</div>
       		{% assign content = book.content | strip_newlines %}
       		{% if content == "" %}
@@ -25,7 +25,7 @@ layout: with_navigation
 					{% else %}
 						<span class="library-index-item-title"><a href="{{ book.url }}">{{ book.title }}</a></span>
 					{% endif %}
-
+	
 					{% if book.rating == 1 %}
 						<span class="library-index-item-rating">★☆☆☆☆</span>
 					{% elsif book.rating == 2 %}
@@ -37,7 +37,7 @@ layout: with_navigation
 					{% elsif book.rating == 5 %}
 						<span class="library-index-item-rating">★★★★★</span>
 					{% endif%}
-        </li>
+      	</li>
       {% endfor %}
     </ol>
   {% endfor %}
