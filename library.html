@@ -13,17 +13,17 @@ layout: with_navigation
 <div class="timeline-container">
   {% for yearMonth in postsByYearMonth %}
     <h2 class="timeline-date">{{ yearMonth.name }}</h2>
-    <ol class="library-index">
+    <ol class="timeline-segment">
       {% for book in yearMonth.items limit: start %}
-      	<li class="library-index-item">
-      		<div class="library-index-item-meta">
-      	  	<span class="library-index-item-author">{{ book.author }}</span>
+      	<li class="timeline-segment-item">
+      		<div class="timeline-segment-item-meta">
+      	  	<span>{{ book.author }}</span>
       		</div>
       		{% assign content = book.content | strip_newlines %}
       		{% if content == "" %}
-      			<span class="library-index-item-title">{{ book.title }}</span>
+      			<span class="timeline-segment-item-title">{{ book.title }}</span>
 					{% else %}
-						<span class="library-index-item-title"><a href="{{ book.url }}">{{ book.title }}</a></span>
+						<span class="timeline-segment-item-title"><a href="{{ book.url }}">{{ book.title }}</a></span>
 					{% endif %}
 
 					{% include book-star-rating.html rating=book.rating %}
@@ -33,7 +33,7 @@ layout: with_navigation
   {% endfor %}
 
   <h2 class="timeline-date">Distant Memory</h2>
-  <span class="library-index"><p>Lots of Roald Dahl, Harry Potter, and Garth Nix. One day, I'll re-read <a href="https://en.wikipedia.org/wiki/The_Keys_to_the_Kingdom">The Keys to the Kingdom</a>, and likely realise it's better forgotten.</p></span>
+  <span class="library-index"><p>Lots of Roald Dahl, C.S. Lewis, and Garth Nix. One day, I'll re-read <a href="https://en.wikipedia.org/wiki/The_Keys_to_the_Kingdom">The Keys to the Kingdom</a>, and likely realise it's better forgotten.</p></span>
 </div>
 
 

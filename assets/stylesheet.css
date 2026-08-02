@@ -220,30 +220,26 @@ hr {
 	color: var(--secondary-font-color);
 }
 
-.library-index {
+.timeline-segment {
 	display: flex;
 	flex-direction: column;
 	gap: 1rem;
 	padding-block: 1.2rem;
 }
 
-.library-index-item {
+.timeline-segment-item {
 	display: flex;
 	flex-direction: column;
 }
 
-.library-index-item-meta {
+.timeline-segment-item-meta {
 	font-size: 0.8rem;
 	display: flex;
 	align-items: baseline;
 	gap: 0.5rem;
 }
 
-.library-index-item-author {
-
-}
-
-.library-index-item-title {
+.timeline-segment-item-title {
 	font-weight: 600;
 	font-family: var(--font-sans-serif);
 }
