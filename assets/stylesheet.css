@@ -3,6 +3,7 @@
 	--font-size: 1.2rem;
 	--font-serif: "Libre Baskerville", serif;
 	--font-sans-serif: "Schibsted Grotesk", sans-serif;
+	--font-icon: "M PLUS Rounded 1c", sans-serif;
 	--bg-color: #FBF7EB;
 	--layer-color: #F1E9D2;
 	--font-color: rgba(0, 0, 0, 0.875);
@@ -241,6 +242,11 @@ hr {
 .library-index-item-title {
 	font-weight: 600;
 	font-family: var(--font-sans-serif);
+}
+
+.library-index-item-rating {
+	font-size: 1rem;
+	font-family: var(--font-icon);
 }
 
 .distant-memory {
