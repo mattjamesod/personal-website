@@ -3,7 +3,7 @@ title: "Eldest"
 author: "Christopher Paolini"
 isbn: "9780552552110"
 book_format: "paperback" 
-read: 2009/09
+read: 2009/09/15
 times_read: 1
 rating: 
 layout: "book"

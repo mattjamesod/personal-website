@@ -1,7 +1,7 @@
 ---
 title: "Mansfield Park"
 author: "Jane Austen"
-# isbn: "9780141439792"
+isbn: "140620664"
 book_format: "paperback" 
 read: 2026/07/31
 times_read: 1

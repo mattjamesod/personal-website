@@ -10,4 +10,6 @@ layout: "book"
 url: "/books/the_peasant_prince_thaddeus_kosciuszko_and_the_age_of_revolution"
 ---
 
-<div>American Exceptionalism: 9/10<br><br>The author writes from a very American perspective and clearly has a dim view of the French Revolution, in both senses. The direct comparisons between European and colonial institutions were misleading and unhelpful.</div>
+American Exceptionalism: 9/10
+
+The author writes from a very American perspective and clearly has a dim view of the French Revolution, in both senses. The direct comparisons between European and colonial institutions were misleading and unhelpful.

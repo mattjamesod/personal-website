@@ -10,4 +10,4 @@ layout: "book"
 url: "/books/the_lion_and_the_unicorn_socialism_and_the_english_genius"
 ---
 
-<div>What a weird little book - the most vague and unprescient of Orwellâ€™s works</div>
+What a weird little book - the most vague and unprescient of Orwellâ€™s works

@@ -3,7 +3,7 @@ title: "Eragon"
 author: "Christopher Paolini"
 isbn: "9780552553209"
 book_format: "paperback" 
-read: 2009/09
+read: 2009/09/01
 times_read: 1
 rating: 
 layout: "book"

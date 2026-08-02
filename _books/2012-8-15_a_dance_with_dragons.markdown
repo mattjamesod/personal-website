@@ -1,13 +1,13 @@
 ---
-title: "A Feast for Crows"
+title: "A Dance with Dragons"
 author: "George R.R. Martin"
-isbn: ""
+isbn: "B0DWTW8LHK"
 book_format: "digital" 
-read: 2012/08
+read: 2012/8/15
 times_read: 1
 rating: 
 layout: "book"
-url: "/books/a_feast_for_crows"
+url: "/books/a_dance_with_dragons"
 ---
 
 
