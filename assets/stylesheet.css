@@ -139,15 +139,19 @@ main {
 h1, h2, h3 {	
 	font-family: var(--font-sans-serif);
 	line-height: 1.2;
-	font-weight: 200;
 }
 
 h1 {
 	font-size: 4rem;
+	font-weight: 200;
 
 	&.small {
 		font-size: 2.5rem;
 	}
+}
+
+h2 {
+	font-weight: 500;
 }
 
 ul, ol {
@@ -307,7 +311,20 @@ hr {
 	width: 100%;
 }
 
+.home-page-container {
+	h2 {
+		margin-block-start: 0.2rem;
+		margin-block-end: 1rem;
+	}
+
+	p {
+		margin-block-end: 1rem;
+	}
+}
+
 .home-page-name {
+	font-weight: 500;
+
 	a {
 		text-decoration-thickness: inherit;
 	}
