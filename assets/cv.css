@@ -23,11 +23,25 @@ header {
 	height: 360px;
 	background-color: var(--accent-color);
 	display: flex;
+	flex-direction: column; 
+
+	a {
+		color: var(--bg-color);
+		text-decoration-color: var(--bg-color);
+
+		&:hover {
+			color: var(--link-color);
+			text-decoration-color: var(--link-color);
+		}
+
+		@media print {
+			display: none;
+		}
+	}
 }
 
 .contact {
 	display: flex;
-	/*gap: 1.5rem;*/
 
 	& > * + *::before {
 		content: "•";
@@ -104,8 +118,6 @@ h3 {
 p + p {
 	margin-block-start: 1rem;
 }
-
-
 
 @media print {
 	html {
