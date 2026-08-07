@@ -7,80 +7,25 @@
 		<link rel="stylesheet" href="/assets/cv.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Ovo&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 		<meta name="theme-color" content="#ff0000">
 	</head>
 	
 	<body>
 		<header>
 			<div class="masthead-strip-cv">
-				<h1 class="print-title center">Matthew O'Donnell</h1>
+				<h1 class="print-title center">{{ page.candidate }}</h1>
 			</div>
-			<p class="center subtitle">Web programmer, software engineer, communicator.</p>
+			<p class="center subtitle">{{ page.blurb }}</p>
 			<div class="contact center">
-				<a href="mailto:matthew.james.od@gmail.com">matthew.james.od@gmail.com</a>
-				<!-- <span>+44 phone number</span> -->
-				<span>London, UK</span>
+				{% if page.email != "" %} <a href="mailto:{{ page.email }}">{{ page.email }}</a> {% endif %}
+				{% if page.phone_number != "" %} <span>{{ page.phone_number }}</span> {% endif %}
+				{% if page.location != "" %} <span>{{ page.location }}</span> {% endif %}
 			</div>
 		</header>
 
 		<main>
-			<article class="center">
-				<section>
-					<p>I care about getting the details right; I will champion the excellence of any project I work on. I have 6 years of experience with backend web development, but the ability to work (and importantly, communicate effectively) across domains. I've built, designed, and shipped my own websites, as well as full commercial applications on mobile.</p>
-				</section>
-
-				<section class="career">
-					<h2>Experience</h2>
-
-					<span class="company-header">
-						<h3><a href="https://freeagent.com">FreeAgent</a></h3>
-						<span class="company-time-range"><time datetime="2022">2022</time>-Present, Remote</span>
-					</span>
-
-					<p>With FreeAgent, I help small businesses and freelancers to save time when dealing with their accounts. Examples of my work:</p>
-					<ul>
-						<li><p>I rearchitected our onboarding flow, while adding new steps to the journey. I was the technical lead: responsible for security, analytics, and delivery.</p></li>
-						<li><p>I built an API for our mobile apps and our tech-savvy users to manage how their invoices recur.</p></li>
-						<li><p>I diagnosed and fixed a performance issue with our API that caused requests from our mobile app to speed up over 10x in the 95th percentile.</p></li>
-					</ul>
-	
-					<p>As a senior engineer, I define new features through technical writing and cross-team collaboration, mentor and support other engineers, and update stakeholders. I have a particular talent for explaining technical concepts and challenges to non-technical peers.</p>
-
-					<p>I champion best practices in our software architecture and workflows: I am known for shipping many small self-contained PRs to accomplish a given task.</p>
-
-					<span class="company-header">
-						<h3><a href="https://avamae.co.uk">AVAMAE</a></h3>	
-						<span class="company-time-range"><time datetime="2019">2019</time>-<time datetime="2022">2022</time>, London</span>
-					</span>
-
-					<p>AVAMAE is a consulatancy building bespoke websites. During my time with them, I developed in-depth backend expertise:</p>
-					<ul>
-						<li><p>I was the solo developer for our Payment Gateway, connecting frontend payment portals across our projects to payment providers. This project handles the payment details of hundreds of thousands of users; I needed to consider many failure cases and how to architect the problem to make those cases obvious. I also built integrations with multiple third-party payment providers.</p></li>
-						<li><p>Working on a betting website, I helped build an asynchronous stream that pushed odds information to the frontend based on an external data source in real time.</p></li>
-					</ul>
-				</section>
-
-				<div class="page-break"></div>
-
-				<section class="skills">
-					<h2 class="skills-header">Skills</h2>
-
-					<p>I work daily with Ruby on Rails. Database calls (to MySQL) are done through ActiveRecord, though I am comfortable with complex SQL queries. I can consider read vs write performance tradeoffs when adding indexes, and investigate performance issues. I write unit and integration tests for all my code.</p>
-
-					<p>I use git on the command line for version control. Working on a complex project, I commit dozens of times a day and deploy daily. All my code is on GitHub, and I a lot of experience giving considerate code review.</p>
-
-					<p>I have written and maintain a suite of productivity apps for the iOS app store, details of which can be seen on my portfolio at <a href="https://andhash39.com">https://andhash39.com</a>. Collectively my apps have been downloaded over 4000 times.</p>
-
-					<p>I also have an interest in modern HTML/CSS, in particular web accessibility and semantic HTML. In the past, I've worked commercially with C#, .NET Core, and C++.</p>
-				</section>
-
-				<section class="education">
-					<h2>Education</h2>
-
-					<p>I have a masters degree in Mathematics from the University of York, graduating 2019 with first-class honours.</p>
-				</section>
-			</article>
+			{{ page.content }}
 		</main>
 
 		<footer>
