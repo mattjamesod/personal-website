@@ -24,6 +24,13 @@ header {
 	background-color: var(--accent-color);
 	display: flex;
 	flex-direction: column; 
+}
+
+.top-level-links {
+	display: flex;
+	align-items: baseline;
+	gap: 1rem;
+	margin-top: 1rem;
 
 	a {
 		color: var(--bg-color);
@@ -33,10 +40,10 @@ header {
 			color: var(--link-color);
 			text-decoration-color: var(--link-color);
 		}
+	}
 
-		@media print {
-			display: none;
-		}
+	@media print {
+		display: none;
 	}
 }
 
