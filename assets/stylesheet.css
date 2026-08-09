@@ -4,6 +4,7 @@
 	--font-serif: "Libre Baskerville", serif;
 	--font-sans-serif: "Schibsted Grotesk", sans-serif;
 	--font-icon: "M PLUS Rounded 1c", sans-serif;
+	--font-handwritten: "Petit Formal Script";
 	--bg-color: #FBF7EB;
 	--font-color: rgba(0, 0, 0, 0.875);
 	--secondary-font-color: rgba(0, 0, 0, 0.5);
@@ -311,6 +312,27 @@ hr {
 	width: 100%;
 }
 
+.landing-details {
+	font-size: 1.8rem;
+	display: grid;
+	grid-template-columns: min-content auto;
+	grid-gap: 0 1rem;
+	/*justify-content: baseline;*/
+}
+
+.home-page-name {
+	color: var(--link-color-hover);
+	border-bottom: dotted black 4px;
+	font-size: 1.9rem;
+	/*font-weight: 600;*/
+	height: 2.6rem;
+	font-family: var(--font-handwritten);
+
+	a {
+		text-decoration: none;
+	}
+}
+
 .home-page-container {
 	h2 {
 		margin-block-start: 0.2rem;
@@ -319,18 +341,6 @@ hr {
 
 	p {
 		margin-block-end: 1rem;
-	}
-}
-
-.home-page-name {
-	font-weight: 500;
-
-	a {
-		text-decoration-thickness: inherit;
-	}
-
-	a:hover {
-		text-decoration-skip-ink: none;
 	}
 }
 
