@@ -5,7 +5,9 @@ layout: with_navigation
 <header>
 <h1 class="print-title">Library</h1>
 
-<p><b>Reviews contain spoilers</b>. <a href="/review-philosophy">What do the stars mean?</a></p>
+<p>Click on titles to read my review, if there is one. My reviews will contain spoilers.</p>
+
+<p><a href="/review-philosophy">What do the stars mean?</a></p>
 </header>
 
 {% assign postsByYearMonth = site.books | reverse | group_by_exp:"book", "book.read | date: '%B %Y'" %}
@@ -33,7 +35,7 @@ layout: with_navigation
   {% endfor %}
 
   <h2 class="timeline-date">Distant Memory</h2>
-  <span class="library-index"><p>Lots of Roald Dahl, C.S. Lewis, and Garth Nix. One day, I'll re-read <a href="https://en.wikipedia.org/wiki/The_Keys_to_the_Kingdom">The Keys to the Kingdom</a>, and likely realise it's better forgotten.</p></span>
+  <span class="timeline-segment"><p>Lots of Roald Dahl, C.S. Lewis, and Garth Nix. One day, I'll re-read <a href="https://en.wikipedia.org/wiki/The_Keys_to_the_Kingdom">The Keys to the Kingdom</a>.</p></span>
 </div>
 
 
