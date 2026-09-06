@@ -316,45 +316,14 @@ hr {
 	width: 100%;
 }
 
-.landing-details {
-	font-size: 1.5rem;
-	display: grid;
-	grid-template-columns: min-content auto;
-	grid-gap: 0 1rem;
-
-  @media (max-width: 700px) {
-  	grid-template-columns: auto;
-		grid-gap: 0rem;
-  }
-
-	/*justify-content: baseline;*/
-}
-
-.home-page-name {
-	color: var(--link-color-hover);
-	border-bottom: dotted black 4px;
-	font-size: 1em;
-	/*font-weight: 600;*/
-	height: 1.5em;
-	font-family: var(--font-handwritten);
+.landing-title {
+	font-size: 3rem;
 
 	a {
-		text-decoration: none;
-	}
-
-  @media (max-width: 700px) {
-  	margin-block-end: 1.5rem;
-  }
-}
-
-.home-page-container {
-	h2 {
-		margin-block-start: 0.2rem;
-		margin-block-end: 1rem;
-	}
-
-	p {
-		margin-block-end: 1rem;
+		font-size: 3rem;
+		line-height: 1.6;
+		text-decoration-thickness: 6px;
+		text-decoration-style: dotted;
 	}
 }
 
