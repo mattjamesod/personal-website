@@ -6,6 +6,9 @@ collections:
   books:
     output: true
     sort_by: order
+  projects:
+    output: true
+    sort_by: order
 
 # Exclude from processing.
 # The following items will not be processed, by default.
