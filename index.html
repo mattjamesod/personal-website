@@ -7,7 +7,7 @@ layout: with_navigation
 
 <div class="not-prose">
 	<p>This space is for me to me to say hello, share things about myself, and give others a way to get in touch. I think personal websites should be personal, so I'll be sharing more than just my work as a software developer.</p>
-	<p>If you care mostly about that, you can <a href="/cv">view my CV</a>, or <a href="portfolio">check out my personal portfolio</a>.</p>
+	<p>If you care mostly about that, you can <a href="/cv">view my CV</a>.</p>
 
 	<h2>Blog</h2>
 
@@ -18,9 +18,13 @@ layout: with_navigation
 		</div>
 	{% endfor %}
 
-	<h2>Projects</h2>
+	<h2>Apps</h2>
 
-	{% for project in site.projects %}
+	<p>I've made a handful of apps for iOS. I don't work on them actively any more, but you can check them out below.</p>
+
+	{% assign apps =  site.projects | where: "type","app" %}
+
+	{% for project in apps %}
 		<div class="block-link">
         	<span class="timeline-segment-item-title"><a href="{{ project.url }}">{{ project.name }}</a></span>
         	<span class="timeline-segment-item-meta">{{ project.blurb }}</span>
