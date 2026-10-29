@@ -89,16 +89,6 @@ body {
 header {
 	margin-block-end: 3.5rem;
 }
-
-footer {
-	position: relative;
-	padding-inline: 1rem;
-	padding-block-start: 2rem;
-	display: flex;
-	flex-direction: column;
-	gap: 1rem;
-}
-
 main {
 	flex-grow: 1;
 	padding-inline: 1rem;
@@ -379,6 +369,16 @@ hr {
 	color: var(--secondary-font-color);
 }
 
+footer {
+	position: relative;
+	padding-inline: 1rem;
+	padding-block-start: 4rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+
 .footer-inner-container {
 	background-color: var(--bg-color);
 	border: 1px solid var(--font-color);
@@ -410,7 +410,7 @@ hr {
 }
 
 .footer-strip {
-	height: 60%;
+	height: 50.5%;
 	background-color: var(--accent-color);
   z-index: -1;
 	position: absolute;
