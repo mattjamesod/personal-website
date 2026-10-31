@@ -105,17 +105,22 @@ main {
 }
 
 .bullet-list {
-	ul {
+	ol {
 		padding-block-end: 1rem;
+		list-style-type: decimal;
 	}
 
 	li {
 		padding-block: 0.5rem;
 	}
 
-	li::before {
-		content: "❯";
-		padding-inline: 8px;
+	ul {
+		padding-block-end: 1rem;
+	
+		li::before {
+			content: "❯";
+			padding-inline: 8px;
+		}
 	}
 }
 
