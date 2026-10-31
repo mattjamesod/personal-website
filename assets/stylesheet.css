@@ -321,7 +321,7 @@ hr {
 	width: 100%;
 }
 
-.landing-title {
+.heading-border {
 	padding-bottom: 0.5rem;
 	border-bottom: 4px solid black;
 }
@@ -367,6 +367,8 @@ hr {
 
 .last-updated-at {
 	color: var(--secondary-font-color);
+	font-size: 1rem;
+	padding-block-end: 1rem;
 }
 
 footer {

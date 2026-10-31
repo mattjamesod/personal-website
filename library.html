@@ -1,13 +1,14 @@
 ---
 layout: with_navigation
+last_udpated_at: 2026-10-04
 ---
 
 <header>
-<h1 class="print-title">Library</h1>
-
-<p>Click on titles to read my review, if there is one. My reviews will contain spoilers.</p>
-
-<p><a href="/review-philosophy">What do the stars mean?</a></p>
+  <h1 class="print-title small heading-border">Library</h1>
+  
+  <p class="landing-subtitle">Click on titles to read my review, if there is one. My reviews will contain spoilers.</p>
+  
+  <p><a href="/review-philosophy">What do the stars mean?</a></p>
 </header>
 
 {% assign postsByYearMonth = site.books | reverse | group_by_exp:"book", "book.read | date: '%B %Y'" %}

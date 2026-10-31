@@ -3,7 +3,8 @@ layout: with_navigation
 ---
 
 <header>
-  <h1 class="print-title">Blog Archive</h1>
+  <h1 class="print-title small heading-border">Blog Archive</h1>
+  <p class="landing-subtitle">I write when I feel like it.</p>
 </header>
 
 {% assign postsByYearMonth = site.posts | group_by_exp:"post", "post.date | date: '%Y'"  %}
