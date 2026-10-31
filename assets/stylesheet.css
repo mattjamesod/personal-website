@@ -104,6 +104,21 @@ main {
 	}
 }
 
+.bullet-list {
+	ul {
+		padding-block-end: 1rem;
+	}
+
+	li {
+		padding-block: 0.5rem;
+	}
+
+	li::before {
+		content: "❯";
+		padding-inline: 8px;
+	}
+}
+
 .prose {
 	p {
 		margin-block-end: 0.2rem;
@@ -120,11 +135,6 @@ main {
 		font-weight: 600;
 		margin-block-start: 2.5rem;
 		margin-block-end: 1.5rem;
-	}
-
-	li::before {
-		content: "❯";
-		padding-inline: 8px;
 	}
 
 	blockquote {
